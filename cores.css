@@ -1,0 +1,194 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+.navigation10{
+	margin:right;
+}
+.img {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+a{
+	font-family: serif;
+}
+.navigation1 {
+	background-color: rgb(45,192,0,255);
+	padding: 10px 15px 13px 15px;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	font-weight: bold;
+	font-size: 85%;
+	text-align: center;	
+}
+
+a:link, a:visited {
+    background-color: white;
+    /*display:block;*/
+    color: black;
+    border: 2px solid green;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover, a:active {
+	background-color: blue;
+	color: white;
+	position: relative;
+	font-weight: bold;
+}
+
+div#centro {
+  vertical-align: center;
+ }
+.navigation2 {
+	
+	background-color: black;
+	padding: 15px 15px 13px 15px;
+	text-align: center;
+    	position: relative;
+}
+.navigation3 {
+	
+	background-color: #00c0af;
+	padding: 50px 30px 30px 30px;
+    	position: relative;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.ia {
+	background-color: #00c0af;
+	padding: 50px 30px 30px 30px;
+    	position: relative;
+	font-size: 95%;
+
+	
+}
+.ie {
+	background-color: red;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.uai {
+	background-color: black;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.uou {
+	background-color: #0d0d0d;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.py {
+	background-color: orange;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.navigation4 {
+	
+	background-color: #00c9f0;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.navigation5 {
+	
+	background-color: #f0c003;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.navigation6 {
+	
+	background-color: #0fccaa;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+
+}
+.navigation7 {
+	
+	background-color: #ff9933;
+	padding: 400px 15px 13px 15px;
+}
+.navigation8 {
+	
+	background-color: #99FF99;
+	padding: 400px 15px 13px 15px;
+}
+
+h4 {
+	color: white;
+}
+
+
+
+
+section {
+	width: 95%;
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+footer {
+	width: 95%;
+	max-width: 50em;
+	padding: 4em 0;
+	margin: 4em auto;
+	border-top: 1px solid #ccc;
+}
+/*css para tela de celulares*/
+@media only screen and (max-width : 480px) {
+
+	body {
+		font-size: 1.5em;
+	}
+	
+	section,
+	footer {
+		width: 80%;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+		color: #d00a00; 
+	}
+
+	a {
+		display: block;
+		font-size: 65%;
+		white-space: nowrap;
+	}
+	
+}
+@media only screen and (max-width: 1088px) {
+	a {
+	    display:block;
+	    white-space: nowrap;
+	}	
+}
+@media only screen and (min-width: 1088px) {
+	a {
+	    display:block-inline;
+	    white-space: nowrap;
+	}	
+
+}

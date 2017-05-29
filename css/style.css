@@ -30,9 +30,10 @@ h1, h2, h3, h4 {
 	color: #FFF;
 	background-color: #009688;
 	border: 1px solid #00796B;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	background-image: url('../img/download-icon.png');
 	background-size: 12px 12px;
-	background-position: 5px;
+	background-position: 10px;
 	background-repeat: no-repeat;
 }
 .download:hover {
@@ -75,8 +76,10 @@ h1, h2, h3, h4 {
 #about p {
 	text-align: center;
 	max-width: 800px;
-	margin-bottom: 2em;
 	line-height: 1.5em;
+}
+#about a {
+	margin-top: 2em;
 }
 /* RANKINGS */
 #rankings {
@@ -135,10 +138,18 @@ h1, h2, h3, h4 {
 /* TUTORIALS */
 #tutorials {
 	padding: 20px;
+	background-color: #424242;
+	color: #FFF;
+}
+#tutorials a {
+	margin-top: 20px;
 }
 /* RULES */
 #rules {
 	padding: 20px;
+}
+#rules ul li {
+	padding: 10px 0;
 }
 /* FOOTER */
 footer {
@@ -178,6 +189,16 @@ footer {
 	}
 	/* MATCHES */
 	#matches {
+		min-height: 70vh;
+		justify-content: center;
+	}
+	/* TUTORIALS */
+	#tutorials {
+		height: 20vh;
+		justify-content: center;
+	}
+	/* RULES */
+	#rules {
 		min-height: 70vh;
 		justify-content: center;
 	}
