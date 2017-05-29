@@ -67,6 +67,10 @@ h1, h2, h3, h4 {
 	padding: 20px;
 	color: #FFF;
 	background-color: #009688;
+	background-image: url('../img/bg-header.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #about p {
 	text-align: center;
@@ -174,7 +178,7 @@ footer {
 	}
 	/* MATCHES */
 	#matches {
-		height: 70vh;
+		min-height: 70vh;
 		justify-content: center;
 	}
 }
